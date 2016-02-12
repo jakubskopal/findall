@@ -11,6 +11,8 @@ print "Welcome in %s" % (company)
 print "Nice to meet you %s, " \
 "from %s department." % (name, department)
 print "Now is : %s\n" % (time)
+print "Time is : %s:%s:%s " % (time.hour, time.minute, time.second)
+
 
 print "date: "
 print time.year
